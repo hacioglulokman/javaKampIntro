@@ -1,6 +1,6 @@
 package oopHomework;
 
-public class InstructorManager {
+public class InstructorManager extends UserManager {
 	
-
+	public void add(User user) {}
 }

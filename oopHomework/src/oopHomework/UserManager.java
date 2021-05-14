@@ -4,8 +4,6 @@ public class UserManager {
 	
 	public void add(User user) {
 		
-		System.out.println(user.firstName +" eklendi");
-		
 	}
 	
 	public void multiAdd(User [] users) {
@@ -30,7 +28,7 @@ public class UserManager {
 
 	public void delete(User user) {
 		
-		System.out.println(user.firstName +" silindi.");
+		System.out.println(user.getFirstName() +" silindi.");
 	
 	}
 	
