@@ -11,9 +11,18 @@ public class Main {
 		
 		hepsiburada.customerNumber="434";
 		
+		SendikaCustomer abc = new SendikaCustomer();
+		abc.customerNumber="42134";
+		
 		CustomerManager customerManager =new CustomerManager();
-		customerManager.add(engin);
-		customerManager.add(hepsiburada);
+		Customer [] customers = {engin, hepsiburada, abc};
+		customerManager.addMultiple(customers);
+		
+		
+		
+		/*
+		 * customerManager.add(engin); customerManager.add(hepsiburada);
+		 */
 		
 	}
 
