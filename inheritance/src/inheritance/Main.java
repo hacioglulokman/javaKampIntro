@@ -15,8 +15,6 @@ public class Main {
 		customerManager.add(engin);
 		customerManager.add(hepsiburada);
 		
-		
-		
 	}
 
 }

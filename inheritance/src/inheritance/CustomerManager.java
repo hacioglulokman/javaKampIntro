@@ -5,6 +5,11 @@ public class CustomerManager {
 		System.out.println(customer.customerNumber + "kaydedildi");
 	}
 	
-
+	public void addMultiple(Customer [] customers) {
+		
+		for (Customer customer : customers) {
+			add(customer);
+		}
+		
+	}
 }
- 
