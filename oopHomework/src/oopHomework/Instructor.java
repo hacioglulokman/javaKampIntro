@@ -1,5 +1,6 @@
 package oopHomework;
 
-public class Instructor {
+public class Instructor extends User{
 
+	int instructorId;
 }
